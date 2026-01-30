@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+    <div id="conteudo">
+        <p>Texto dentro da div.</p>
+    </div>
+    <script>
+        document.getElementById('conteudo').insertAdjacentHTML('afterbegin',
+            '<p>Parágrafo inserido no início da div (dentro dela).</p>');
+    </script>
+</body>
+</html>
