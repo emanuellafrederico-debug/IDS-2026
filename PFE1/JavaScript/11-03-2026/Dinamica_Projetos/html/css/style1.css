@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px){
+    .container{
+        flex-direction: row;
+    }
+    .conteudo{
+        flex: 3;
+    }
+    .lateral{
+        flex:1;
+    }
+}
+
+body{
+  background-color: #F2E6D3;
+}
+
+header{
+  font-family:'Courier New', Courier, monospace;
+  background-color: #F0E5D3;
+  text-shadow: white 1px 1px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: 30px;
+}
+
+#cor_texto{
+    color: rgb(48, 16, 9);
+}
